@@ -28,10 +28,10 @@ app = FastAPI(
 frontend_url = os.getenv("FRONTEND_URL", "https://nishant-x.github.io/MyPortfolio/")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[frontend_url, "http://localhost:3000"],  # Allow frontend requests
+    allow_origins=["*"],  # Allow all origins
     allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_methods=["*"],  # Allow all methods (GET, POST, OPTIONS, etc.)
+    allow_headers=["*"],  # Allow all headers
 )
 
 # Ensure 'data' directory exists
