@@ -99,7 +99,7 @@ async def options_chat():
     return {}
 
 # ✅ Chat Route
-@app.post("/chat")
+@app.post("/")
 async def chat_endpoint(request: QuestionRequest):
     try:
         response = chain.invoke(request.question)
