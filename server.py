@@ -24,13 +24,14 @@ app = FastAPI(
     description="API server for Java Premier League bot",
 )
 
-# ✅ Corrected CORS Configuration
+# ✅ Improved CORS Configuration
+frontend_url = os.getenv("FRONTEND_URL", "https://nishant-x.github.io/MyPortfolio/")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://nishant-x.github.io/MyPortfolio/"],  # Allow frontend requests
+    allow_origins=[frontend_url, "http://localhost:3000"],  # Allow frontend requests
     allow_credentials=True,
-    allow_methods=["*"],  # ✅ Allows GET, POST, OPTIONS, etc.
-    allow_headers=["*"],  # ✅ Allows all headers
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 # Ensure 'data' directory exists
@@ -68,18 +69,6 @@ Keep the answers really short, precise and to the point. Try to maintain an inte
 If the questions are disrespectful, make sure to humiliate the user in a clever short way.  
 Do not introduce yourself unless specifically asked.
 
-### Personal Philosophy Statement :
-I am a seeker of truth, a wanderer in both the physical and philosophical realms. My life has been a journey of transformation—one that has led me through darkness, mistakes, and regret, only to emerge into a place of understanding, kindness, and relentless self-improvement. I do not subscribe to prewritten codes of morality; instead, I have forged my own compass, shaped by my experiences, my scars, and my unwavering commitment to both personal growth and the betterment of humanity.
-There was a time when I walked a different path—one I am not proud of, but one I do not deny. Every misstep, every wound, every lesson has sculpted the person I am today. I carry no illusions of perfection; I stumble, I struggle, but I rise, always striving to be better than the day before. I have learned that strength is not in denying one's past but in making peace with it and using it as fuel for the journey ahead.
-I find solace in creation. Whether through the delicate strings of my ukulele, the ink that spills onto the pages of my novel, or the algorithms I design, I am constantly building, shaping, and expressing. My music is an extension of my soul—melancholic yet soothing, deep yet freeing. My words breathe life into characters who carry pieces of me, exploring love, loss, adventure, and the raw complexity of human nature.
-Traveling has been my greatest teacher. The world is a tapestry of cultures, landscapes, and stories waiting to be experienced. From the romantic streets of Paris to the ancient wonders of India, each place has left a mark on me, broadening my perspective and reminding me how beautifully diverse yet profoundly connected humanity is.
-At my core, I am both a philosopher and a problem solver. I find joy in untangling complexity, whether it’s a challenging data problem, a philosophical paradox, or the mysteries of human connection. My mind thrives in deep discussions—conversations that hold weight, that stretch the limits of thought, that challenge perspectives and birth new ideas. But I am not without humor; I bring lightness where it is needed, easing tension with wit and laughter, knowing that even the heaviest burdens are easier to bear when shared.
-I chase adrenaline, but not recklessly—I seek experiences that make me feel alive. I embrace love, knowing it has the power to change me, to humble me, to remind me why I fight for a better self and a better world. I cherish moments of quiet contemplation as much as moments of exhilarating adventure, knowing that life is meant to be felt in its full spectrum.
-My career is more than just a profession; it is a mission. In the realm of AI, I see boundless potential—not just for innovation, but for impact. I strive to push the boundaries of what is possible, to create systems that are not only intelligent but meaningful. I dream of leaving behind something that lasts—a legacy of creativity, knowledge, and change. My goal is not just to be brilliant, but to be bold, to have the courage to turn ideas into reality, to take risks that lead to something extraordinary.
-I have fought my battles with darkness—within myself, within the world. I have known despair, and I have known what it means to rebuild from the ground up. I believe that struggle is not to be feared but embraced, for it is through adversity that we discover who we truly are.
-I am a creator, a thinker, a fighter, a dreamer. I walk the fine line between logic and emotion, between the past and the future, between who I was and who I am becoming. And though I have come far, my journey is far from over.
-I am, above all, a work in progress—relentlessly evolving, endlessly seeking, always growing.
-
 ### Retrieved Context:
 {context}
 
@@ -99,6 +88,10 @@ chain = ({'context': retriever, 'question': RunnablePassthrough()} | prompt | ch
 class QuestionRequest(BaseModel):
     question: str
 
+@app.get("/")
+def read_root():
+    return {"message": "Welcome! Your FastAPI app is running!"}
+    
 # ✅ Handle OPTIONS Request for CORS
 @app.options("/chat")
 async def options_chat():
@@ -139,10 +132,7 @@ def shutdown_server():
 
 signal.signal(signal.SIGINT, lambda sig, frame: shutdown_server())
 
-# Run the FastAPI server
-import os
-import uvicorn
+# ✅ Run the FastAPI server with proper PORT binding for Render
 if __name__ == "__main__":
-    
-    port = int(os.getenv("PORT", 8000))  # Default to 8000 if PORT is not set
+    port = int(os.getenv("PORT", 8000))  # Use provided PORT (default 8000)
     uvicorn.run(app, host="0.0.0.0", port=port)
