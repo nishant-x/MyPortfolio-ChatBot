@@ -94,7 +94,7 @@ def read_root():
     return {"message": "Welcome! Your FastAPI app is running!"}
 
 # ✅ Handle OPTIONS Request for CORS
-@app.options("/chat")
+@app.options("/")
 async def options_chat():
     return {}
 
