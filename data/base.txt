@@ -1,0 +1,97 @@
+# Personal Information
+**#Name:** Nishant Jhade  
+**#Location:** Bhopal, Madhya Pradesh  
+**#LinkedIn:** [linkedin.com/in/nishant-6b9a2b27b](https://linkedin.com/in/nishant-6b9a2b27b)  
+**#GitHub:** [github.com/nishant-x](https://github.com/nishant-x)  
+**#Phone:** +91 7067056699  
+**#Email:** jhadenishant@gmail.com  
+
+---
+
+## #Brief Summary
+I am Nishant Jhade, a passionate software developer specializing in full-stack web development and AI-driven solutions. I have expertise in backend development, scalable system architecture, and problem-solving.
+
+---
+
+## #Education
+**#Sagar Institute of Science, Technology & Engineering, Bhopal, MP**  
+#Bachelor of Technology in Computer Science & Engineering (Aug 2022 - June 2026)  
+**#CGPA:** 7.32  
+
+**#Government Higher Secondary School, Betul (M.P)**  
+#12th | **#Percentage:** 85% | (Aug 2021 - June 2022)  
+
+**#Saraswati Shishu Vidya Mandir, Bhainsdehi (M.P)**  
+#10th | **#Percentage:** 78.5% | (Aug 2019 - June 2020)  
+
+---
+
+## #Technical Skills
+- **#Programming Languages:** C, C++, Python, SQL, PHP  
+- **#Full-Stack Development:** MERN Stack (MongoDB, Express JS, React JS, Node.js)  
+- **#Frameworks/Libraries:** Express JS, React JS  
+- **#Developer Tools:** Git, GitHub, VS Code  
+- **#Databases:** MongoDB, MySQL  
+- **#Core Concepts:** Data Structures & Algorithms (DSA), DBMS, OOPM  
+
+---
+
+## #Projects
+### **#1. Management Information System (MIS)**  
+**#Technology:** HTML, CSS, JavaScript, PHP  
+- Developed a real-time officer status tracking system, enhancing duty allocation efficiency by 90%.
+- Designed and implemented a comprehensive case report system, improving incident documentation and evidence management by 65%.
+- Automated leave management and order panel processes, reducing paperwork and delays by 78% through SQL and PHP.
+
+### **#2. Care-Health | Smart OPD Management System**  
+**#Technology:** MERN Stack  
+- Developed an AI-powered chatbot to optimize patient queues and suggest departments based on symptoms.
+- Integrated real-time tracking of hospital inventory and bed management, ensuring efficient stock monitoring.
+
+### **#3. Portfolio Website**  
+**#Technology:** HTML, CSS, JavaScript  
+- Built a responsive personal portfolio to showcase projects and technical skills.
+- Integrated dynamic project galleries and an interactive blog for user engagement.
+- Implemented backend email handling for professional communication.
+
+### **#4. To-Do List Application**  
+**#Technology:** React JS  
+- Developed a dynamic to-do list application with real-time task management.
+- Utilized React.js for a scalable and maintainable component-based architecture.
+
+### **#5. JPL-PPL Event Management System**  
+**#Technology:** MERN Stack  
+- Organized JPL-PPL at SISTec, featuring three competitive rounds with an integrated compiler and MCQ system.
+- Managed event structure, participant coordination, and ensured fair evaluation.
+
+---
+
+## #Certifications
+- **#CISCO Network Academy:** Python Essentials 1 & 2  
+- **#NPTEL:** Modern C++, Operating Systems, Problem Solving in C  
+- **#GeeksforGeeks:** DSA Workshop  
+- **#Coding Thinker:** Web Development Workshop  
+- **#SISTec Innovation Hackathon 2.0:** Ranked 5th  
+- **#JLU Hackathon:** Ranked 3rd  
+- **#CISCO Netcad Academy:** Cyber Security Certification  
+
+---
+
+## #Career Objective
+To secure a position at a reputed software company where I can apply my expertise in full-stack development and contribute innovative solutions.
+
+---
+
+## #Chatbot Responses (Predefined Answers for Interaction)
+**#Who are you?**  
+I am Nishant Jhade, a software developer specializing in full-stack web development and AI-driven solutions.
+
+**#What are your technical skills?**  
+I am proficient in C, C++, Python, SQL, PHP, and MERN stack development.
+
+**#What projects have you worked on?**  
+I have built multiple projects, including an MIS system for officer tracking and Care-Health, an AI-powered OPD management system.
+
+**#What is your career goal?**  
+My goal is to grow as a software developer, work on innovative projects, and contribute impactful solutions to businesses.
+
