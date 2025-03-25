@@ -27,7 +27,7 @@ app = FastAPI(
 # ✅ Corrected CORS Configuration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://127.0.0.1:3000"],  # Allow frontend requests
+    allow_origins=["https://nishant-x.github.io/MyPortfolio/"],  # Allow frontend requests
     allow_credentials=True,
     allow_methods=["*"],  # ✅ Allows GET, POST, OPTIONS, etc.
     allow_headers=["*"],  # ✅ Allows all headers
