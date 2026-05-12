@@ -8,6 +8,7 @@
 **#Phone:** +91 7067056699
 **#Email:** [jhadenishant@gmail.com](mailto:jhadenishant@gmail.com)
 
+
 ---
 
 ## #Brief Summary
@@ -21,6 +22,7 @@ I am Nishant Jhade, a passionate Full Stack Developer with expertise in MERN sta
 **#Sagar Institute of Science, Technology & Engineering, Bhopal, MP**
 #Bachelor of Technology in Computer Science & Engineering (2022 - 2026)
 **#CGPA:** 7.59
+**#calculate semester based on year
 
 **#Government Higher Secondary School, Betul, MP**
 #12th | **#Percentage:** 85% | (2022)
@@ -44,13 +46,13 @@ I am Nishant Jhade, a passionate Full Stack Developer with expertise in MERN sta
 
 ## #Experience
 
-### **#Development Intern | Eazy ERP Technologies Pvt. Ltd.**
+### **#Development Intern | Eazy ERP Technologies Pvt. Ltd. Gurgaon Haryana** -- On-site
 
-* Worked on real-world development projects under mentor supervision.
+* Working on real-world development projects under mentor supervision.
 * Contributed to software design, implementation, debugging, and performance optimization.
 * Collaborated with development teams while following coding best practices and project deadlines.
 
-### **#MERN Stack Developer | ZennAura, Delhi**
+### **#MERN Stack Developer | ZennAura, Delhi** -- Virtual(freelancing)
 
 * Designed, developed, and deployed a full-stack e-commerce web application.
 * Worked on frontend UI/UX, backend APIs, database structuring, and deployment.
