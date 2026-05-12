@@ -1,97 +1,142 @@
 # Personal Information
-**#Name:** Nishant Jhade  
-**#Location:** Bhopal, Madhya Pradesh  
-**#LinkedIn:** [linkedin.com/in/nishant-6b9a2b27b](https://linkedin.com/in/nishant-6b9a2b27b)  
-**#GitHub:** [github.com/nishant-x](https://github.com/nishant-x)  
-**#Phone:** +91 7067056699  
-**#Email:** jhadenishant@gmail.com  
+
+**#Name:** Nishant Jhade
+**#Location:** Bhopal, Madhya Pradesh
+**#LinkedIn:** [https://linkedin.com/in/nishant-6b9a2b27b](https://linkedin.com/in/nishant-6b9a2b27b)
+**#GitHub:** [https://github.com/nishant-x](https://github.com/nishant-x)
+**#Portfolio:** github.io/MyPortfolio
+**#Phone:** +91 7067056699
+**#Email:** [jhadenishant@gmail.com](mailto:jhadenishant@gmail.com)
 
 ---
 
 ## #Brief Summary
-I am Nishant Jhade, a passionate software developer specializing in full-stack web development and AI-driven solutions. I have expertise in backend development, scalable system architecture, and problem-solving.
+
+I am Nishant Jhade, a passionate Full Stack Developer with expertise in MERN stack development, scalable web applications, and backend system design. I have experience working on real-world development projects, API integration, authentication systems, and AI-powered solutions. I enjoy solving complex problems and building user-friendly applications that create real impact.
 
 ---
 
 ## #Education
-**#Sagar Institute of Science, Technology & Engineering, Bhopal, MP**  
-#Bachelor of Technology in Computer Science & Engineering (Aug 2022 - June 2026)  
-**#CGPA:** 7.32  
 
-**#Government Higher Secondary School, Betul (M.P)**  
-#12th | **#Percentage:** 85% | (Aug 2021 - June 2022)  
+**#Sagar Institute of Science, Technology & Engineering, Bhopal, MP**
+#Bachelor of Technology in Computer Science & Engineering (2022 - 2026)
+**#CGPA:** 7.59
 
-**#Saraswati Shishu Vidya Mandir, Bhainsdehi (M.P)**  
-#10th | **#Percentage:** 78.5% | (Aug 2019 - June 2020)  
+**#Government Higher Secondary School, Betul, MP**
+#12th | **#Percentage:** 85% | (2022)
+
+**#Saraswati Shishu Vidhya Mandir, Betul, MP**
+#10th | **#Percentage:** 78.5% | (2020)
 
 ---
 
 ## #Technical Skills
-- **#Programming Languages:** C, C++, Python, SQL, PHP  
-- **#Full-Stack Development:** MERN Stack (MongoDB, Express JS, React JS, Node.js)  
-- **#Frameworks/Libraries:** Express JS, React JS  
-- **#Developer Tools:** Git, GitHub, VS Code  
-- **#Databases:** MongoDB, MySQL  
-- **#Core Concepts:** Data Structures & Algorithms (DSA), DBMS, OOPM  
+
+* **#Programming Languages:** C++, JavaScript, SQL
+* **#Web Development:** MERN Stack (React.js, Next.js, Node.js, Express.js, MongoDB)
+* **#Salesforce:** Salesforce Fundamentals, CRM Concepts, Trailhead Modules
+* **#API Development:** RESTful APIs, GraphQL, Authentication & Authorization (JWT, Cookies)
+* **#Databases:** MongoDB, MySQL, PostgreSQL
+* **#Developer Tools & Platforms:** Git, GitHub, VS Code, Postman, Render, Vercel
+* **#Core Concepts:** DBMS, OOPs, Data Structures & Algorithms
+
+---
+
+## #Experience
+
+### **#Development Intern | Eazy ERP Technologies Pvt. Ltd.**
+
+* Worked on real-world development projects under mentor supervision.
+* Contributed to software design, implementation, debugging, and performance optimization.
+* Collaborated with development teams while following coding best practices and project deadlines.
+
+### **#MERN Stack Developer | ZennAura, Delhi**
+
+* Designed, developed, and deployed a full-stack e-commerce web application.
+* Worked on frontend UI/UX, backend APIs, database structuring, and deployment.
+* Managed environment variables, build debugging, and cloud deployment using Vercel and Render.
 
 ---
 
 ## #Projects
-### **#1. Management Information System (MIS)**  
-**#Technology:** HTML, CSS, JavaScript, PHP  
-- Developed a real-time officer status tracking system, enhancing duty allocation efficiency by 90%.
-- Designed and implemented a comprehensive case report system, improving incident documentation and evidence management by 65%.
-- Automated leave management and order panel processes, reducing paperwork and delays by 78% through SQL and PHP.
 
-### **#2. Care-Health | Smart OPD Management System**  
-**#Technology:** MERN Stack  
-- Developed an AI-powered chatbot to optimize patient queues and suggest departments based on symptoms.
-- Integrated real-time tracking of hospital inventory and bed management, ensuring efficient stock monitoring.
+### **#1. MIS - Management Information System**
 
-### **#3. Portfolio Website**  
-**#Technology:** HTML, CSS, JavaScript  
-- Built a responsive personal portfolio to showcase projects and technical skills.
-- Integrated dynamic project galleries and an interactive blog for user engagement.
-- Implemented backend email handling for professional communication.
+**#Technology:** HTML, CSS, PHP, JavaScript
 
-### **#4. To-Do List Application**  
-**#Technology:** React JS  
-- Developed a dynamic to-do list application with real-time task management.
-- Utilized React.js for a scalable and maintainable component-based architecture.
+* Developed a platform for managing police operations such as leave management, case management, and jawan live status tracking.
+* Improved operational efficiency through digital workflow management.
+* Implemented database-driven modules for report handling and administration.
 
-### **#5. JPL-PPL Event Management System**  
-**#Technology:** MERN Stack  
-- Organized JPL-PPL at SISTec, featuring three competitive rounds with an integrated compiler and MCQ system.
-- Managed event structure, participant coordination, and ensured fair evaluation.
+### **#2. Sankat Mochan | Smart OPD Management System**
+
+**#Technology:** MERN Stack, Python
+
+* Developed a hospital management platform for OPD queuing, bed management, and inventory tracking.
+* Integrated an AI-powered chatbot for report analysis and home remedy suggestions.
+* Designed scalable backend architecture for healthcare workflow management.
+
+### **#3. Coding Ka Cricket**
+
+**#Technology:** MERN Stack, Python
+
+* Developed and managed an event management system for SISTec-R coding competition.
+* Integrated compiler-based coding rounds and MCQ evaluation systems.
+* Managed participant coordination and event workflow.
+
+### **#4. Portfolio Website**
+
+**#Technology:** HTML, CSS, JavaScript
+
+* Built a responsive portfolio website showcasing projects, skills, and achievements.
+* Added interactive project sections and contact integration.
+
+### **#5. To-Do List Application**
+
+**#Technology:** React.js
+
+* Developed a task management application using React.js.
+* Implemented dynamic state management and responsive UI components.
 
 ---
 
-## #Certifications
-- **#CISCO Network Academy:** Python Essentials 1 & 2  
-- **#NPTEL:** Modern C++, Operating Systems, Problem Solving in C  
-- **#GeeksforGeeks:** DSA Workshop  
-- **#Coding Thinker:** Web Development Workshop  
-- **#SISTec Innovation Hackathon 2.0:** Ranked 5th  
-- **#JLU Hackathon:** Ranked 3rd  
-- **#CISCO Netcad Academy:** Cyber Security Certification  
+## #Training & Certifications
+
+* SmartBridge Salesforce Training (Feb–Mar 2026)
+* Full Stack Development (React, Node.js, PostgreSQL) – Scaler & Udemy Certification (Jan–Feb 2026)
+* Programming in C & Modern C++ – NPTEL (Jul–Oct 2024)
+* Web Development & Data Structures & Algorithms Workshop – MANIT Bhopal (Sep 2024)
+* CISCO Netacad: Python Essentials & Cyber Security Certification
+
+---
+
+## #Achievements
+
+* Winner, Branch Master – SISTec-R (Mar 2025)
+* 3rd Position – JLU Hackathon (May 2024)
+* 5th Rank – SISTec Innovation Hackathon 2.0 (Apr 2024)
 
 ---
 
 ## #Career Objective
-To secure a position at a reputed software company where I can apply my expertise in full-stack development and contribute innovative solutions.
+
+To secure a Full Stack Developer role in a reputed organization where I can apply my technical skills, contribute to impactful projects, and continuously grow as a software developer.
 
 ---
 
 ## #Chatbot Responses (Predefined Answers for Interaction)
-**#Who are you?**  
-I am Nishant Jhade, a software developer specializing in full-stack web development and AI-driven solutions.
 
-**#What are your technical skills?**  
-I am proficient in C, C++, Python, SQL, PHP, and MERN stack development.
+**#Who are you?**
+I am Nishant Jhade, a Full Stack Developer specializing in MERN stack development and scalable web applications.
 
-**#What projects have you worked on?**  
-I have built multiple projects, including an MIS system for officer tracking and Care-Health, an AI-powered OPD management system.
+**#What are your technical skills?**
+I am skilled in JavaScript, C++, SQL, MERN stack development, GraphQL, REST APIs, MongoDB, MySQL, PostgreSQL, and Salesforce fundamentals.
 
-**#What is your career goal?**  
-My goal is to grow as a software developer, work on innovative projects, and contribute impactful solutions to businesses.
+**#What projects have you worked on?**
+I have worked on projects like MIS - Management Information System, Sankat Mochan Smart OPD System, Coding Ka Cricket Event Platform, and multiple full-stack web applications.
 
+**#Do you have industry experience?**
+Yes, I have worked as a Development Intern at Eazy ERP Technologies Pvt. Ltd. and as a MERN Stack Developer at ZennAura.
+
+**#What is your career goal?**
+My goal is to grow as a Full Stack Developer, work on innovative technologies, and contribute impactful solutions to real-world problems.
